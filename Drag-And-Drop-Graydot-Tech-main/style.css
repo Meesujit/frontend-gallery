@@ -1,0 +1,124 @@
+ /* Set the margin and padding to 0 or initial value. */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ /* font of the element */
+body {
+    font-family: Arial, sans-serif;
+  }
+ /* Main Container  */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 20px;
+  }
+
+  /* div items  */
+  
+  .item {
+    width: 100px;
+    height: 100px;
+    background-color: #f2f2f2;
+    margin: 10px;
+    cursor: move;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+
+  /* hover effect on item div  */
+  
+  .item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* shadow part of div while drag */
+  .item.dragging {
+    opacity: 0.5;
+  }
+  
+  /* Success message */
+  .success-message {
+    color: green;
+    font-weight: bold;
+    margin: 10px;
+  }
+
+  /* Both container body properties  */
+
+  #first-container, #second-container {
+    background-color: #ffcccc;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 200px;
+    flex: 1;
+    border: 2px solid #ff9999;
+    
+  }
+  
+  #second-container p {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }
+
+  .dropped-items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .dropped-items .item {
+    margin: 5px 0;
+  }
+  
+  /* Button part  */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Responsive for Desktop, Tab and Mobile  */
+  
+  @media (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    #first-container, #second-container {
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    #first-container, #second-container {
+      background-color: #ccffcc;
+      border: 2px solid #99ff99;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    button {
+      padding: 8px 16px;
+      font-size: 12px;
+    }
+  }

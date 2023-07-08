@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop Menu</title>
+    <!-- LINKING TO STYLE.CSS FILE  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- LINKING TO SCRIPT.JS FILE  -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- MAIN CONTAINER  -->
+    <div class="container">
+      
+      <!-- FIRST CONTAINER  -->
+        <div id="first-container">
+
+          <!-- CONTAINER ITEMS  -->
+
+          <!-- DRAG EVENT OCCURS WHEN USER START DRAG  -->
+          <div class="item" draggable="true" ondragstart="drag(event)">Image</div>
+          <div class="item" draggable="true" ondragstart="drag(event)">Text</div>
+          <div class="item" draggable="true" ondragstart="drag(event)">Icon</div>
+        </div>
+
+        <!-- SECOND CONTAINER  -->
+        <div id="second-container" ondragover="allowDrop(event)" ondrop="drop(event)">
+          <p>Drop items here</p>
+          <div class="dropped-items" id="dropped-items"></div>
+        </div>
+      </div>     
+       
+      <!-- SUCCESS MESSAGE  -->
+      <p class="success-message" id="success-message"></p>
+      
+      <!-- RESET BUTTON  -->
+      <button onclick="resetContainers()">Reset</button>
+</body>
+</html>

@@ -1,0 +1,650 @@
+.main-card-container {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 16px 24px;
+    gap: 32px;
+    position: relative;
+    width: 292px;
+    height: 640px;
+    background: #111111;
+    border-radius: 16px;
+}
+
+.main-card-row1 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 221.01px;
+    height: 116px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main-card-col1 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 84.01px;
+    height: 116px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main-nft-img-content {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+
+    width: 47px;
+    height: 28px;
+
+    /* Activities/Sold_10% */
+
+    background: rgba(248, 169, 16, 0.1);
+    border-radius: 44px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main-nft-img-content h4 {
+    width: 31px;
+    height: 12px;
+
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    /* identical to box height, or 12px */
+    /* Activities/Sold */
+    color: #FFC148;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main-card-col2 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2px;
+    width: 125px;
+    height: 54px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main-first-heading {
+    width: 125px;
+    height: 32px;
+    /* 19/Title19Bold */
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 32px;
+    /* identical to box height, or 168% */
+    color: #FFFFFF;
+    /*Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main-second-heading {
+    width: 79px;
+    height: 20px;
+    /* 12/Title5Regular */
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    /* Text/Medium */
+    color: #A2A2A2;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main-card-row2 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 174px;
+    height: 32px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main-card-col3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 8px;
+    width: 126px;
+    height: 32px;
+    /* Cont/Card/OnSurface1 */
+    background: #1A1A1A;
+    border-radius: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.user h4 {
+    width: 78px;
+    height: 20px;
+    /* 12/Title5Regular */
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    /* Text/Medium */
+    color: #A2A2A2;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main-card-col4 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px;
+    gap: 8px;
+    width: 32px;
+    height: 32px;
+    /* Cont/Card/OnSurface1 */
+    background: #1A1A1A;
+    border-radius: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main-card-col4 img {
+    width: 24px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main-card-content {
+    width: 258px;
+    height: 72px;
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    /* or 24px */
+    /* Text/Medium */
+    color: #A2A2A2;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.main-card-row3 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 260px;
+    height: 76px;
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.common-communites {
+    width: 162px;
+    height: 20px;
+    /* 12/Title5Regular */
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    /* Text/Medium */
+    color: #A2A2A2;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main-nft-card {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 260px;
+    height: 48px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.main-card-row4 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 260px;
+    height: 100px;
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.main-card-content-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 247px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main-card-art-content {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 10px;
+    gap: 8px;
+    width: 70px;
+    height: 28px;
+    /* Activities/Sold */
+    border: 1px solid #FFC148;
+    border-radius: 40px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.art h3 {
+    width: 19px;
+    height: 16px;
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    /* Activities/Sold */
+    color: #FFC148;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.art-number h3 {
+    width: 23px;
+    height: 16px;
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    /* Activities/Sold */
+    color: #FFC148;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main-card-utilit-content {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 10px;
+    gap: 8px;
+    width: 87px;
+    height: 28px;
+    /* Activities/Sold */
+    border: 1px solid #FFC148;
+    border-radius: 40px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main-card-utilit-content .utility h3 {
+    width: 36px;
+    height: 16px;
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    /* Activities/Sold */
+    color: #FFC148;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main-card-utilit-content .utility-number h3 {
+    width: 23px;
+    height: 16px;
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    /* Activities/Sold */
+    color: #FFC148;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main-card-pfp-content {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 10px;
+    gap: 8px;
+    width: 74px;
+    height: 28px;
+    /* Cont/Card/OnSurface1 */
+    border: 1px solid #1A1A1A;
+    border-radius: 40px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.pfp h3 {
+    width: 23px;
+    height: 16px;
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    /* Text/Medium */
+    color: #A2A2A2;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pfp-number h3 {
+    width: 23px;
+    height: 16px;
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    /* Text/Medium */
+    color: #A2A2A2;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main-card-col5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 221px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.metaverse-content {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 10px;
+    gap: 8px;
+    width: 116px;
+    height: 28px;
+    /* Cont/Card/OnSurface1 */
+    border: 1px solid #1A1A1A;
+    border-radius: 40px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.metaverse h3 {
+    width: 65px;
+    height: 16px;
+
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    /* Text/Medium */
+    color: #A2A2A2;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.metaverse-number h3 {
+    width: 23px;
+    height: 16px;
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    /* Text/Medium */
+    color: #A2A2A2;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.gaming-content {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 10px;
+    gap: 8px;
+    width: 97px;
+    height: 28px;
+    /* Cont/Card/OnSurface1 */
+    border: 1px solid #1A1A1A;
+    border-radius: 40px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.gaming h3 {
+    width: 46px;
+    height: 16px;
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    /* Text/Medium */
+    color: #A2A2A2;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.gaming-number h3 {
+    width: 23px;
+    height: 16px;
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    /* Text/Medium */
+    color: #A2A2A2;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main-card-col6 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 260px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.main-card-btn {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 37px;
+    gap: 8px;
+    width: 260px;
+    height: 44px;
+    /* Text/Medium */
+    border: 1px solid #A2A2A2;
+    border-radius: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+
+.btn {
+    width: 74px;
+    height: 20px;
+    /* 14/Title4Regular */
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    /* Bg/OnSurface100 */
+    color: #FAFAFA;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
